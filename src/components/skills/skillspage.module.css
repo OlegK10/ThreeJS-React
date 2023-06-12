@@ -1,0 +1,115 @@
+.main_cart{
+    position: relative;
+    z-index: 1;
+    top: 0;left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+    .cart{
+        width: 1415px;
+        height: 620px;
+        left: 105px;
+        top: 95px;
+        box-shadow: 0px 0px 22px 4px rgba(0, 0, 0, 0.32);
+        border-radius: 90px;
+        background:radial-gradient(144.78% 536.3% at 146.38% 148.76%, #3EA2FA 0%, rgba(99, 211, 226, 0.08) 100%)
+    }
+
+.content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+    .l_cont{
+        height: 100%;
+        width: 300px;
+        text-align: center;
+        box-shadow: -3px 0px 21px 1px rgba(0, 0, 0, 0.45);  
+        border-radius: 30px 0px 0px 30px;
+        background: radial-gradient(104.99% 104.99% at 16.29% -9.02%, #76B2EA 0%, rgba(239, 239, 239, 0.72) 100%);
+        overflow: hidden;
+    }
+        .l_ul{
+            height: 100%;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+        justify-content: center;
+        }
+            .lc_li{
+                width: 100%;
+                font-size: 18px;
+                padding: 6px 0;
+                cursor: pointer;
+            }
+            .lc_li:hover{
+                box-shadow: 0px 0px 1px 1px rgb(255, 255, 255);
+                transform: scale(95%);
+            }
+
+            .lc_li_actiive{
+                background: radial-gradient(106.48% 3622.26% at 3.38% 12.04%, #BCEFFF 0%, rgba(255, 255, 255, 0.2) 100%) 
+            }
+
+
+
+    .r_cont{
+        width:60vw;
+        height: 100%;
+        text-align: center;
+        box-shadow: 4px 0px 16px 1px rgba(0, 0, 0, 0.45);
+        border-radius: 0px 30px 30px 0px;
+        background: radial-gradient(115.3% 115.3% at 72.16% -15.3%, #2663FF 0%, rgba(115, 193, 237, 0.35) 100%) ;
+        overflow: hidden;
+    }
+
+    .r_c{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: .7em;
+    }
+.r_c_row_co{
+        display: flex;
+        width: 100%;
+        align-self: flex-start;
+        overflow-x: scroll;
+
+}
+        .r_c_row{
+        display: flex;
+        align-self: flex-start;
+        gap: .7em;
+        }
+            .rhtc{
+                position: relative;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.45);
+                width: 140px;
+                height: 140px;
+            }
+
+            .rhtc_inp{
+                width: 240px;
+                height: 240px;
+            }
+
+
+
+
+

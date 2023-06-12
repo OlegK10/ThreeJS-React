@@ -1,0 +1,30 @@
+.topMenu{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    padding: 17px 0;
+}
+    .topMenuCont{
+    position: fixed;
+    display: flex;
+        justify-content: center;
+    }
+
+        .topMenuItems{
+            position: relative;
+            width: 500px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+            .topMenuItemCenter{
+                gap: 3em;
+                display: flex;
+            }
+
+                .topMenuItem{
+                    cursor: pointer;
+                }
+                .topMenuItem:hover{
+                    transform: scale(94%);
+                }

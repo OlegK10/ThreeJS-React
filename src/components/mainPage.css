@@ -1,0 +1,16 @@
+.pages{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.canco{
+    position: absolute;
+    right: 180px;
+    top:130px;
+    width: 500px;
+    height: 500px;
+    animation: robotAnim_2 1s ease-in-out infinite alternate;
+}
+

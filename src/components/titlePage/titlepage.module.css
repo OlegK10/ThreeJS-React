@@ -1,0 +1,84 @@
+.main_cart{
+    position: relative;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+    .cart{
+        width: 1415px;
+        height: 620px;
+        left: 105px;
+        top: 95px;
+        box-shadow: 0px 0px 22px 4px rgba(0, 0, 0, 0.32);
+        border-radius: 90px;
+        background: radial-gradient(126.74% 242.17% at 115.22% -26.74%, #0085FF 0%, rgba(91, 255, 216, 0) 79.17%), radial-gradient(128.89% 478.6% at -26.03% 57.87%, #B4CDFF 0%, rgba(255, 255, 255, 0) 100%);
+    }
+
+.content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+    .content_left{
+        position: relative;
+        display: flex;
+        height: 100%;
+        margin-left: 40px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .titleCont{
+        position: relative;
+        width: 670px;
+    }
+        .tite, .tite_2{
+            color: var(--c-dark);
+            font-size: 96px;
+        }
+
+            .tite_2{
+                text-align: right;
+            }
+
+    .btn_auto{
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+    }
+
+        .img_play{
+            margin-left: 5px;
+            width: 24px;
+        }
+
+    .content_right{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cr_canvas{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .ellipse{
+            width: 400px;
+        }
+
